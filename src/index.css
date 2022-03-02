@@ -62,6 +62,9 @@ code {
   border-style: none;
   margin-bottom: 10px;
 }
+a{
+  color: rgb(32, 75, 204);
+}
 .cancel{
   background-color: white;
   border-radius: 12px;
@@ -132,24 +135,9 @@ code {
     padding: 10px;
     margin-bottom: 10px;
   }
-  /* h1{
-    font-size: 15px;
-  }
-  .year{
-    width: 85px;
-    font-size: 12px;
-  }
-
   a{
-    font-size: 10px;
+    color: rgb(32, 75, 204);
   }
-  .plan{
-    font-size: 12px;
-  } */
-  /* .music{
-    width: 40px;
-    margin-right: 20px;
-  } */
 
   .button{
     background-color: rgb(32, 75, 204);
@@ -195,15 +183,15 @@ code {
       monospace;
   }
   .header{
-    margin-top: 40%;
+    margin-top: 22%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    width: 70%;
+    width: 80%;
   }
   
   .faith{
     background-color: white;
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
     position: relative;
@@ -212,14 +200,18 @@ code {
     border-bottom-right-radius: 12px;
   }
   .temi{
-    width: 100%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-bottom: 5%;
-    font-size: 14px;
+    font-size: 13px;
+    padding-top: 5px;
   }
   .annual{
     width: 100%;
+  }
+  a{
+    color: rgb(32, 75, 204);
   }
 
   *{
@@ -227,6 +219,11 @@ code {
     margin: 0%;
     /* width: 100%; */
     /* font-size: 1rem; */
+  }
+  h1{
+    font-size: 32px;
+    padding-top: 10px;
+    /* margin-top: 30px; */
   }
   .order{
     display: flex;
